@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hyperops</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gluten&display=swap" rel="stylesheet">
+<link rel="stylesheety" href="style.css">
+<style>
+    body{
+        font-family: 'Gluten', cursive;
+        color: aliceblue;
+        margin:0px;
+        padding:0px;
+        background: url('train-178092.jpg');
+        width:1000px ;
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+    }
+    
+    .left img{
+        width: 80px;
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+
+    }
+    .mid{
+        display:block;
+        width:80%;
+        margin: 20px auto;
+    }
+    .mid img{
+        width: 30px;
+    }
+    
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        color:whitesmoke;
+        display:inline-block;
+    }
+    .navbar li a{
+        color:whitesmoke;
+        text-decoration: white;
+        padding: 34px 23px ;
+    }
+    .navga{
+        display: inline-block;
+    }
+    .navga li{
+        color:whitesmoke;
+        display:inline-block;
+    }
+    .navga li a{
+        color:whitesmoke;
+        text-decoration: white;
+        padding: 34px 23px ;
+    }
+    .container{
+        margin:106px 78px;
+        width: 100%;
+        display:flex;
+        flex-wrap:wraps ;
+
+    }
+    .item{
+        border-radius: 19px;
+        border:2px solid silver;
+        margin: 80px 100px;
+        padding: 120px;
+        width:120%;
+        height:80%;
+        box-shadow: 10px 10px 40px whitesmoke;
+        transition-property: background-color ;
+        transition:all 1s ease-in-out 0.3s;
+    }
+    .item:hover{
+        background-color: silver;
+        transform:scale(2);
+    }
+    .rotate img{
+        animation: got 3s linear infinite;
+    }
+    @keyframes got{
+        0% {transform: rotate(0);}
+        100% {transform: rotate(360deg);}
+    }
+    
+
+   
+    
+</style>
+<body>
+    <header class ="header">
+        <div class="mid">
+            <ul class ="navbar">
+                <li><a href="tamog.html" target="_blank">Home</a></li>
+                <li><a href="newpasseng.html" target="_blank">Booking</a></li>
+                <li><a href="lapras.html" target="_blank"> QR code</a></li>
+                <li><a href="howwork.html">How it works</a></li>
+            </ul>
+        </div>
+        <div class="left">
+            <img src="solar-eclipse-1482921_640.jpg">
+        </div>
+        
+
+    </header>
+    <h1 style=font-size:100px> <h1 style="text-align:right;">HYPERL<span class="rotate img"><img src="infinity-3680677_1280.png">PS</span></h1></h1>
+    <div class = "container"> <div class="item" id="item1"><h1>HOW IT WORKS</h1><br>
+        This,project  is a demo model of how a web application can be used to book a person's ticket and also maintain off nominal situation <br>
+        firstly, the software asks for the person's age and then based on his location and number of passengers<br>
+        waiting, in the platform to board the pod,the software recommends you to a platform<br>
+        then a qr code is generated which can be scanned at the scanning booth
+        </div><span></span><span></span><span></span><span></span><div></div><div></div>
+        
+           <div class= "item" id ="item2"> <span></span><span></span><h1>CONTACT</h1><span></span>
+            Name: Tamogh Nekkanti
+            phone :8790133749
+            school id:tnekkanti_be21@thapar.edu
+        </div>
+        <div class ="item" id ="item3"><span></span><span></span><h1>ADDN. INFO</h1>
+        The qr code has to be connected to a scanning device ,to read the function<br>(currently not available)<br>
+        I have not used a database to store  passenger's data as i felt it was not necessary,<br>because this code focuses on passenger arrangement and it fulfils he question condition
+        </div>
+        </div>
+
+</body>
+<body>
+    
+</body>
+</html>
+        
